@@ -2,6 +2,9 @@
 
 ## Author: Maureen Wairimu.
 
+## Description
+The website is basically a website that one can upload quotes and he or she can like and dislike the qoute.
+
 ## Technology
 HTML and CSS(Bootstrap)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
@@ -14,6 +17,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Run `ng serve` command.</li>
 <li>Navigate to http://localhost:4200/ in your browser.</li>
 
+### Screenshot.
+<img src="./assets/" alt="Diary" width="400"/>
+
 ## Known Bugs and Development
 > To fix a bug or improve the module, follow this steps:
 <ul list-style-type=circle;>
@@ -22,6 +28,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Make the changes ,then add the changes to reflect</li>
 <li>Commit the changes you have made(git commit -m "Fix js bug") </li>
 <li>Push changes made and click pull request so that I can access the changes made.</li>
+
+## Live link<hr>
 
 ## Development server
 
