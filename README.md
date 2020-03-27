@@ -14,6 +14,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Run `ng serve` command.</li>
 <li>Navigate to http://localhost:4200/ in your browser.</li>
 
+## Known Bugs and Development
+> To fix a bug or improve the module, follow this steps:
+<ul list-style-type=circle;>
+<li>Fork the repository on my github</li>
+<li>Create a new branch (git checkout -b bug)</li>
+<li>Make the changes ,then add the changes to reflect</li>
+<li>Commit the changes you have made(git commit -m "Fix js bug") </li>
+<li>Push changes made and click pull request so that I can access the changes made.</li>
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
