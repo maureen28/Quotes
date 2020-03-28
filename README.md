@@ -1,13 +1,16 @@
-# Quotes
+# Quotes<hr>
 
 ## Author: Maureen Wairimu.
 
-## Description
+## Description<hr>
 The website is basically a website that one can upload quotes and he or she can like and dislike the qoute.
 
 ## Technology
-HTML and CSS(Bootstrap)
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+<ol>
+<li>Angular CLI</li>
+<li>Typescript</li>
+</ol>
 
 
 ## Setup Installation and Instruction<hr>
@@ -17,17 +20,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Run `ng serve` command.</li>
 <li>Navigate to http://localhost:4200/ in your browser.</li>
 
-### Screenshot.
+### BDD
 <img src="./assets/" alt="Diary" width="400"/>
 
 ## Known Bugs and Development
 > To fix a bug or improve the module, follow this steps:
 <ul list-style-type=circle;>
-<li>Fork the repository on my github</li>
-<li>Create a new branch (git checkout -b bug)</li>
+<li>Fork the repository</li>
+<li>Create a new branch (git branch fix-bug)</li>
+<li>Move to branch</li>
 <li>Make the changes ,then add the changes to reflect</li>
-<li>Commit the changes you have made(git commit -m "Fix js bug") </li>
-<li>Push changes made and click pull request so that I can access the changes made.</li>
+<li>Commit your changes(git commit -m "Fix js bug") </li>
+<li>Push changes (git push origin fix-bug)</li>
+<li>Create a pull request.</li>
 
 ## Live link<hr>
 
@@ -60,4 +65,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 To get in touch E-MAIL me on nimz69509@gmail.com
 
 ## License
-Copyright (c) 2020 maureen28
+MIT License
+<b>Copyright (c) 2020 maureen28<b>
