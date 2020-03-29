@@ -1,10 +1,10 @@
 <div class="container">
-  <form (ngSubmit)='submitGoal()' #quoteForm='ngForm'>
+  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
     <div class="form-group">
       <label for="quote">Quote</label><br>
       <textarea name="quote" id="quote" cols="15" rows="5" class="form-control" [(ngModel)]="newQuote.quote"
         #quote='ngModel'></textarea>
-      <div [hidden]='quotes.valid || quotes.pristine' class="alert alert-danger">
+      <div [hidden]='quote.valid || quote.pristine' class="alert alert-danger">
         <p>Quote is required</p>
       </div>
     </div>
