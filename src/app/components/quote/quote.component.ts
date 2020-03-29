@@ -14,8 +14,7 @@ export class QuoteComponent implements OnInit {
   addAQuote(quote) {
     this.quotes.push(quote)
   }
-  numberOfLikes = 0;
-  numberOfDislikes = 0;
+  
   constructor() { }
 
   ngOnInit(): void {
