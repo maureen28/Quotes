@@ -1,8 +1,10 @@
 <div>
+  <p>{{quote.author}}</p>
   <span><button (click)='upVote' class="btn btn-outline-primary"><i class="fa fa-thumbs-up" aria-hidden="true"></i>
-      Like</button> {{numberOfLikes}}</span>
+    Like</button> {{numberOfLikes}}</span><br>
   <span><button (click)='downVote' class="btn btn-outline-warning"><i class="fa fa-thumbs-down" aria-hidden="true"></i>
-      Dislike</button>{{numberOfDislikes}}</span>
-  <span><button (click)='deleteQuote(true)' class="btn btn-outline-danger"><i class="fa fa-times" aria-hidden="true"></i>
+      Dislike</button> {{numberOfDislikes}}</span><br>
+  <span><button (click)='deleteQuote(true)' class="btn btn-outline-danger"><i class="fa fa-times"
+        aria-hidden="true"></i>
       Delete</button></span>
 </div>
