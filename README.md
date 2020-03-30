@@ -1,8 +1,8 @@
-# Quotes<hr>
+# Quotes
 
 ## Author: Maureen Wairimu.
 
-## Description<hr>
+## Description
 The website is basically a website that one can upload quotes and he or she can like and dislike the qoute.
 
 ## Technology
@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 </ol>
 
 
-## Setup Installation and Instruction<hr>
+## Setup Installation and Instruction
 <ul>
 <li>Clone this repository to a location in your file system.</li>
 <li>Open terminal command line then navigate to the root folder of the application.</li>
@@ -34,7 +34,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Push changes (git push origin fix-bug)</li>
 <li>Create a pull request.</li>
 
-## Live link<hr>
+## Live link : 
 
 ## Development server
 

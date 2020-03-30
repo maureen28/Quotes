@@ -1,2 +1,13 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 
+.jumbotron{
+    background-image: url('assets/Rusty_and_Crusty_Padlock.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+body {
+    background-color:rgb(235, 222, 222);
+  }
