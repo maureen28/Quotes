@@ -3,6 +3,6 @@
       Like</button> {{numberOfLikes}}</span>
   <span><button (click)='downVote' class="btn btn-outline-warning"><i class="fa fa-thumbs-down" aria-hidden="true"></i>
       Dislike</button>{{numberOfDislikes}}</span>
-  <span><button (click)='deleteQuote' class="btn btn-outline-danger"><i class="fa fa-times" aria-hidden="true"></i>
-      Delete</button>{{delete}}</span>
+  <span><button (click)='deleteQuote(true)' class="btn btn-outline-danger"><i class="fa fa-times" aria-hidden="true"></i>
+      Delete</button></span>
 </div>
