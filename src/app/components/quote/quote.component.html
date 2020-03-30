@@ -10,10 +10,10 @@
   
     <div class="col-md-6 float-right">
       <div *ngFor="let quote of quotes;let i=index">
-        <div class="card bd">
-        <p>{{quote.quote}}</p>
-        <p>Author:{{quote.author}}</p>
-        <p>Submitted By:{{quote.submittedBy}}</p>
+        <div class="card ">
+        <h5><strong>"{{quote.quote}}"</strong></h5>
+        <p><strong>Author:</strong>{{quote.author}}</p>
+        <p><strong>Submitted By</strong>:{{quote.submittedBy}}</p>
         <p>Date Quoted: {{quote.dateQuoted | date}}</p>
         <app-quote-details (isComplete)='deletingQuote($event,i)'></app-quote-details>
       </div>
