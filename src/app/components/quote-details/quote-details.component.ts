@@ -7,10 +7,8 @@ import { Quote } from 'src/app/quote';
   styleUrls: ['./quote-details.component.css']
 })
 export class QuoteDetailsComponent implements OnInit {
-  @Input() quote: Quote;
-  @Output() isComplete = new EventEmitter<boolean>();
-  numberOfLikes = 0;
-  numberOfDislikes = 0;
+  numberOfLikes: number = 0;
+  numberOfDislikes: number = 0;
 
   upVote() {
     this.numberOfLikes++;
@@ -19,7 +17,9 @@ export class QuoteDetailsComponent implements OnInit {
   downVote() {
     this.numberOfDislikes++;
   }
-  
+  @Input() quote: Quote;
+  @Output() isComplete = new EventEmitter<boolean>();
+
   deleteQuote(deleting: boolean) {
     this.isComplete.emit(deleting);
   }
