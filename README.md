@@ -10,6 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <ol>
 <li>Angular CLI</li>
 <li>Typescript</li>
+<li>HTML & CSS(Bootstrap)</li>
 </ol>
 
 
@@ -21,7 +22,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <li>Navigate to http://localhost:4200/ in your browser.</li>
 
 ### BDD
-<img src="./assets/" alt="Diary" width="400"/>
+> Below is the landing page once the web browser is loaded
+<img src="./assets/Screenshot from 2020-03-31 17-27-45 (1).jpg" alt="Life Quotes" width="400"/>
 
 ## Known Bugs and Development
 > To fix a bug or improve the module, follow this steps:
