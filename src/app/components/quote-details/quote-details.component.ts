@@ -1,5 +1,6 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Quote } from 'src/app/quote';
+
 // import { EventEmitter } from 'protractor';
 @Component({
   selector: 'app-quote-details',
@@ -17,7 +18,7 @@ export class QuoteDetailsComponent implements OnInit {
   downVote() {
     this.numberOfDislikes++;
   }
-  @Input() quote: Quote;
+  
   @Output() isComplete = new EventEmitter<boolean>();
 
   deleteQuote(deleting: boolean) {

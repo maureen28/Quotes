@@ -14,7 +14,7 @@
         <h5><strong>"{{quote.quote}}"</strong></h5>
         <p><strong>Author:</strong>{{quote.author}}</p>
         <p><strong>Submitted By</strong>:{{quote.submittedBy}}</p>
-        <p>Date Quoted: {{quote.dateQuoted | date}}</p>
+        <p>Date Quoted: {{quote.dateQuoted | dateCount}}</p>
         <app-quote-details (isComplete)='deletingQuote($event,i)'></app-quote-details>
       </div>
     </div>
