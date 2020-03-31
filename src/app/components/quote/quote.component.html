@@ -11,9 +11,11 @@
 
     <div class="col-md-6 float-right">
       <div *ngFor="let quote of quotes;let i=index">
-        <div class="card border-info pb-3 mb-3">
-          <h5><strong>"{{quote.quote}}"</strong></h5>
-          <p><strong>Author:</strong>{{quote.author}}</p>
+        <div class="card border-info pb-3 mb-4 ">
+          <!-- <h3 [hidden]='mostLiked()' id="{{i}}" appHighlight><p>{{quote.quote}}</p> is the most liked quote</h3>
+       -->
+          <h5 class="text-center font-weight-bold">"{{quote.quote}}"</h5>
+          <p> <strong>Author:</strong> {{quote.author}}</p>
           <p><strong>Submitted By</strong>:{{quote.submittedBy}}</p>
           <p><strong>Date Quoted</strong>: {{quote.dateQuoted | dateCount}}</p>
           <app-quote-details (isComplete)='deletingQuote($event,i)'></app-quote-details>

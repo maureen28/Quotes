@@ -8,7 +8,7 @@ import { Quote } from 'src/app/quote';
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote('It takes real skills to trip over nothing,fall up the stairs and choke on air, I have those skills', 'Anonymous', 'Moh', new Date(13 - 2 - 1980)),
-    new Quote('First time in History, We can save the Human race by lying in front of the T.V and doing nothing, Lets not screw this up', 'Mutahi Kagwe', 'Nimo', new Date(2020 / 2 / 3))
+    new Quote('First time in History, We can save the Human race by lying in front of the T.V and doing nothing, Lets not screw this up', 'Mutahi Kagwe', 'Nimo', new Date(2 / 3/2020))
   ];
 
   addAQuote(quote) {
@@ -24,6 +24,7 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
+
 
   constructor() { }
 
