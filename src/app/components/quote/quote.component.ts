@@ -7,21 +7,22 @@ import { Quote } from 'src/app/quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote('It takes real skills to trip over nothing,fall up the stairs and choke on air, I have those skills', 'Anonymous', 'Moh', new Date(13-2-2010)),
-    new Quote('The way i see it, if you want the rainbow,you gotta put up with the rain', 'Dolly Parton', 'Nimo', new Date(2020 / 3 / 4))
+    new Quote('It takes real skills to trip over nothing,fall up the stairs and choke on air, I have those skills', 'Anonymous', 'Moh', new Date(13 - 2 - 1980)),
+    new Quote('First time in History, We can save the Human race by lying in front of the T.V and doing nothing, Lets not screw this up', 'Mutahi Kagwe', 'Nimo', new Date(2020 / 2 / 3))
   ];
 
   addAQuote(quote) {
+    quote.Date = new Date(quote.Date);
     this.quotes.push(quote)
   }
   deletingQuote(isComplete, index) {
     if (isComplete) {
       let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].quote}?`);
-    
-    if (toDelete) {
-      this.quotes.splice(index, 1)
+
+      if (toDelete) {
+        this.quotes.splice(index, 1)
+      }
     }
-  }
   }
 
   constructor() { }
