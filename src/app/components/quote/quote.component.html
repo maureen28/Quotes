@@ -12,8 +12,7 @@
     <div class="col-md-6 float-right">
       <div *ngFor="let quote of quotes;let i=index">
         <div class="card border-info pb-3 mb-4 ">
-          <!-- <h3 [hidden]='mostLiked()' id="{{i}}" appHighlight><p>{{quote.quote}}</p> is the most liked quote</h3>
-       -->
+        <h3 id="{{i}}" appHighlight style="color: rgb(117, 32, 197);"></h3>
           <h5 class="text-center font-weight-bold">"{{quote.quote}}"</h5>
           <p> <strong>Author:</strong> {{quote.author}}</p>
           <p><strong>Submitted By</strong>:{{quote.submittedBy}}</p>

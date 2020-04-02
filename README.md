@@ -24,7 +24,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### BDD
 <ul>
 <li>Below is the landing page once the web browser is loaded.</li>
-<img src="src/assets/Screenshot from 2020-03-31 17-27-45 (1).jpg" alt="Life Quotes" width="400"/>
+<img src="src/assets/quotes.jpg" alt="Life Quotes" width="400"/>
 <li>The user can add and delete a quote.</li>
 <li>A user can like or dislike on a quote.</li>
 </ul>
